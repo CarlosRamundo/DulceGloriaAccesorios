@@ -1,0 +1,28 @@
+#blog h3, h4{
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+}
+#blog .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#blog article{
+  margin: 5px;
+
+}
+#blog img{
+    width: 100%;
+    max-width: 280px;
+    border-radius: 10px;
+}
+.boton{
+    background: #ccc;
+    border-radius: 10px;
+}
+.boton:hover{
+    color: mediumvioletred;
+}

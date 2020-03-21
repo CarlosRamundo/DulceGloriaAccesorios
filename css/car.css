@@ -1,0 +1,52 @@
+@media only screen and (max-device-width : 768px){
+#hcar{
+    width: 100%;
+    height: 50px;
+}
+h1{
+    position: relative;
+    margin: 5px 110px;
+    font-size: 14px;
+    text-align: center;
+}
+#lateralderecho{
+    position: absolute;
+    width: 60px;
+    height: 2000px;
+    top: 51px;
+    right: 0px;
+    z-index: 1;
+    background: red;
+    
+}
+#sectioncar{
+    position: absolute;
+    top: 50px;
+    padding: 5px;
+    width: 100%;
+    height: 2000px;
+    z-index: 0;
+    background: blue;
+    
+}
+#articlecar{
+    position: absolute;
+    left: 100px;
+}
+#asidecar{
+    position: absolute;
+    width: 100px;
+    height: 2000px;
+    top: 50px;
+    left: 0;
+    background: black;
+}
+#footercar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 110;
+    background: green;
+    }
+}

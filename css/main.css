@@ -1,0 +1,53 @@
+#menu-bar{
+  display: none;
+}
+header label {
+  float: right;
+  font-size: 24px;
+  margin: 50px 20px;
+}
+.menu{
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  top: 180px;
+  left: 0;
+  background: rgba(51, 51, 51, 0.9);
+  transition: all 0.5s;
+  transform: translateX(100%);
+}
+.menu a{
+  display: block;
+  color: #fff;
+  height: 80px;
+  text-decoration: none;
+  font-size: 36px;
+  text-align: left;
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.menu a:hover{
+  background: rgba(255, 255, 255, 0.5);
+}
+#menu-bar:checked ~ .menu{
+    transform: translateX(60%);
+}
+
+
+
+#menu-carrito{
+  display: none;
+}
+.carrito{
+  position: absolute;
+  width: 100%;
+  height: 1800px;
+  top: 100px;
+  left: 0;
+  background: rgba(51, 51, 51, 0.9);
+  transition: all 0.5s;
+  transform: translateX(100%);
+}
+#menu-carrito:checked ~ .carrito{
+    transform: translateX(0%);
+}
