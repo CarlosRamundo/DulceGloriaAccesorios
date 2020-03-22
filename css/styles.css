@@ -40,16 +40,23 @@ header .contenedor{
 }
 #bienvenidos{
     position: relative;
-    top: 30px;
+    margin-top: auto;
+    top: 300px;
     left: 10%;
     width: 800px;
     margin: 10px;
     padding: 8pz;
     text-align: center;
 }
-section{
-  width: 100%;
-  margin-bottom: 25px;
+#bienvenidos ul{
+    position: relative;
+    display: flex;
 }
-
+footer{
+    position: relative;
+    margin: auto;
+    width: 90%;
+    height: 100px;
+    background: rgba(0,0,0,0.5);
+}
 }

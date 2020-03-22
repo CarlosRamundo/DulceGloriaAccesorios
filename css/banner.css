@@ -1,42 +1,33 @@
-#banner{
-  margin-top: 100px;
-  position: relative;
+.slide{
+    position: relative;
+    width: 90%;
+    top: 300px;
+    margin: auto;
+    overflow: hidden;
 }
-#banner img{
-  position: relative;
-  width: 100%;
-  top: 50px;
-  height: 380px;
+.slide ul{
+    padding: 0;
+    display: flex;
+    width: 400%;
+    animation: cambio 10s infinite alternate;    
 }
-#banner .contenedor{
-  position: absolute;
-  top: 280px;
-  left: 5px;
-}
-#banner h2{
-  text-align: right;
-  font-size: 24px;
-}
-#banner h1{
-    position: absolute;
+.slide li{
+    list-style: none;
     width: 100%;
-    text-align: center;
-    font-size: 26px;
-    top: 118px;
-    color: black;
+}
+.slide img{
+    width: 100%;
+}
+@keyframes cambio{
+    0%{margin-left: 0}
+    20%{margin-left: 0}
     
-}
-#banner a{
-  position: absolute;      
-  display: block;
-  right: 50px;
-  width: 120px;
-  color: blueviolet;
-  text-decoration: none;
-  padding: 7px;
-  margin-top: 60px;
-  border: 3px solid #fff;
-}
-#banner a:hover{
-  background: rgba(51, 51, 51, 0.5);
+    25%{margin-left: -100%}
+    45%{margin-left: -100%}
+    
+    50%{margin-left: -200%}
+    70%{margin-left: -200%}
+    
+    75%{margin-left: -300%}
+    100%{margin-left: -300%}
 }
